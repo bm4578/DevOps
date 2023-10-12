@@ -22,7 +22,7 @@ services:
     networks:
       - codetype
     ports:
-      - "9000:1234"
+      - "1234:1234"
     volumes:
       - ./jar/app.jar:/app.jar
       - ./file/:/file/
